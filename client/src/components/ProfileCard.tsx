@@ -118,13 +118,9 @@ const ProfileCard = (props: Props): ReactElement<Props> => {
   };
 
   const handleLogout = async () => {
-    try {
-      await logout();
-      onLogout();
-      navigate('/');
-    } catch (e) {
-
-    }
+    await logout();
+    onLogout();
+    navigate('/');
   };
 
   const open = Boolean(anchorEl);

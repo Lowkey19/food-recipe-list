@@ -6,9 +6,6 @@ import { Typography } from '@mui/material';
 import { getFoodRecipe } from '../api/foodRecipe';
 import FoodRecipeContext from '../providers/foodRecipe';
 
-// import { getTvShow } from '../api/tvShow';
-// import TvShowContext from '../providers/tvShows';
-
 const MainContainer = styled.div`
   margin: 20px;
 `;
@@ -33,12 +30,6 @@ const Title = styled.div`
     font-size: 36px;
   }
 `;
-
-// const Rating = styled.div`
-//   > p {
-//     font-size: 25px;
-//   }
-// `;
 
 const DescriptionContainer = styled.div`
   font-size: 24px;
